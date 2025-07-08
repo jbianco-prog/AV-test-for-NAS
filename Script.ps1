@@ -37,14 +37,14 @@ $uncPaths = @("\\127.0.0.1\temp$", "\\127.0.0.1\temp$") 		 	 		# Table of UNC pa
 #
 ## Here default value, as a template
 # $adminEmail = "contact@example.org" 		 		 		 		 		# Operational management email (To), here "contact@example.org"
-# $emailSubject = "⚠️ Antivirus not working - File not deleted"		 		# Subject of the email
+# $emailSubject = "Antivirus not working - File not deleted"		 		# Subject of the email
 # $smtpServer = "smtp.example.com"	 		 		 		 		 		# SMTP Server
 # $smtpPort = 587 		 		 		 		 		 		 		 	# SMTP Port - default value 587, or 25 in clear text
 # $smtpUser = "smtp-user@example.com"		 		 		 		 		# SMTP Server
 # $smtpPassword = "Pa$$w0rd" | ConvertTo-SecureString -AsPlainText -Force  # SMTP Password and data processing
 
 $adminEmail = "contact@example.org" 		 		 		 		 	 	# Operational management email (To)
-$emailSubject = "⚠️ Antivirus not working - File not deleted"		 		# Subject of the email
+$emailSubject = "Antivirus not working - File not deleted"		 		# Subject of the email
 
 $smtpServer = "smtp.example.com"	 		 		 		 		 		# SMTP Server
 $smtpPort = 587 		 		 	 		 		 		 		 		# SMTP Port - default value 587, or 25 in clear text
