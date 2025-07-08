@@ -29,7 +29,7 @@ $waitAfterWriteSeconds = 20 		 		 		 		 		 		# Delay after writing before verifi
 ## Here default value, as a template
 # $uncPaths = @("\\192.168.1.1\temp$", "\\192.168.1.2\temp$") 		 	 	# Table of UNC paths to test, here 192.168.x.y shared folder
 
-$uncPaths = @("\\192.168.1.1\temp$", "\\192.168.1.2\temp$") 		 	 		# Table of UNC paths to test, separated by a coma
+$uncPaths = @("\\192.168.1.1\temp$", "\\192.168.1.2\temp$") 		 	 	# Table of UNC paths to test, separated by a coma
 
 ## --
 ## Set SMTP server for email notifications
@@ -41,10 +41,10 @@ $uncPaths = @("\\192.168.1.1\temp$", "\\192.168.1.2\temp$") 		 	 		# Table of UN
 # $smtpServer = "smtp.example.com"	 		 		 		 		 		# SMTP Server
 # $smtpPort = 587 		 		 		 		 		 		 		 	# SMTP Port - default value 587, or 25 in clear text
 # $smtpUser = "smtp-user@example.com"		 		 		 		 		# SMTP Server
-# $smtpPassword = "Pa$$w0rd" | ConvertTo-SecureString -AsPlainText -Force  # SMTP Password and data processing
+# $smtpPassword = "Pa$$w0rd" | ConvertTo-SecureString -AsPlainText -Force   # SMTP Password and data processing
 
 $adminEmail = "contact@example.org" 		 		 		 		 	 	# Operational management email (To)
-$emailSubject = "Antivirus not working - File not deleted"		 		# Subject of the email
+$emailSubject = "Antivirus not working - File not deleted"		 		    # Subject of the email
 
 $smtpServer = "smtp.example.com"	 		 		 		 		 		# SMTP Server
 $smtpPort = 587 		 		 	 		 		 		 		 		# SMTP Port - default value 587, or 25 in clear text
@@ -93,9 +93,9 @@ $eicarContent = 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!
 $credential = New-Object System.Management.Automation.PSCredential($smtpUser, $smtpPassword)
 
 ##
-## -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
-## Begin script
-## -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
+## -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- +
+## Begin script                                                                        |
+## -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- +
 #
 # Main loop
 while ($true) {
