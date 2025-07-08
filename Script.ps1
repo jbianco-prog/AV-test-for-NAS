@@ -29,7 +29,7 @@ $waitAfterWriteSeconds = 20 		 		 		 		 		 		# Delay after writing before verifi
 ## Here default value, as a template
 # $uncPaths = @("\\192.168.1.1\temp$", "\\192.168.1.2\temp$") 		 	 	# Table of UNC paths to test, here 192.168.x.y shared folder
 
-$uncPaths = @("\\127.0.0.1\temp$", "\\127.0.0.1\temp$") 		 	 		# Table of UNC paths to test, separated by a coma
+$uncPaths = @("\\192.168.1.1\temp$", "\\192.168.1.2\temp$") 		 	 		# Table of UNC paths to test, separated by a coma
 
 ## --
 ## Set SMTP server for email notifications
